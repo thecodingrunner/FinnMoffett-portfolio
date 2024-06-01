@@ -4,6 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   const form = useRef();
@@ -26,14 +27,14 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>finn.moffett@gmail.com</h5>
-            <a href="mailto:finn.moffett@gmail.com" target="_blank">Send a message</a>
+            <Link to="mailto:finn.moffett@gmail.com" target="_blank">Send a message</Link>
           </article>
 
           <article className="contact__option">
             <FaWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>07702083730</h5>
-            <a href="https://api.whatsapp.com/send?phone=07702083730" target="_blank">Send a message</a>
+            <Link to="https://api.whatsapp.com/send?phone=07702083730" target="_blank">Send a message</Link>
           </article>
         </div>
 

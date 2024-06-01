@@ -1,7 +1,8 @@
 
 .portfolio__item {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: repeat(2,1fr);
+  /* grid-template-columns: 1.2fr 0.8fr; */
   /* background-color: var(--color-white); */
   gap: 60px;
   color: var(--color-white);
@@ -12,6 +13,7 @@
   display: flex;
   gap: 5px;
   margin: 20px 0;
+  flex-wrap: wrap;
 }
 
 .stack__tool {
@@ -22,11 +24,11 @@
   margin-right: 5px;
 }
 
-.stack__tool:hover {
+/* .stack__tool:hover {
   background-color: var(--color-bg-2);
   border-color: var(--color-bg-2);
   transition: var(--transition);
-}
+} */
 
 .portfolio__item-text h3 {
   color: var(--color-primary);

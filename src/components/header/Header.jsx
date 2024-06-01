@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import { TypeAnimation } from 'react-type-animation'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -12,19 +13,19 @@ const Header = () => {
         <h1>Finn Moffett</h1>
         <TypeAnimation 
           sequence={[
-            '<h1>Frontend Developer</h1>',
+            'Frontend Developer',
             1000,
-            '<h1>Mechanical Engineering Graduate</h1>',
+            'Mechanical Engineering Graduate',
             1000,
-            '<h1>Japan Enthusiast</h1>',
+            'Japan Enthusiast',
             1000,
-            '<h1>Sports Enthusiast</h1>',
+            'Sports Enthusiast',
             1000,
-            '<h1>Martial Arts Enthusiast</h1>',
+            'Martial Arts Enthusiast',
             1000,
-            '<h1>Productive Procrastinator</h1>',
+            'Productive Procrastinator',
             1000,
-            '<h1>Professional Overthinker</h1>',
+            'Professional Overthinker',
             1000
           ]}
           wrapper="h5"
@@ -35,7 +36,7 @@ const Header = () => {
         <CTA /> 
         <HeaderSocials />
 
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        <Link to="#contact" className='scroll__down'>Scroll Down</Link>
       </div>
     </header>
   )

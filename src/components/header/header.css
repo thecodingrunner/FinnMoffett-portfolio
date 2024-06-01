@@ -34,7 +34,7 @@ header {
   position: absolute;
   left: 0;
   bottom: 38vh;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .header__socials a:hover {
@@ -43,8 +43,8 @@ header {
 
 .header__socials::after {
   content: '';
-  width: 1px;
-  height: 2.5rem;
+  width: 2px;
+  height: 3rem;
   background: var(--color-primary);
 }
 
@@ -64,7 +64,7 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 45vh;
+  bottom: 48vh;
   transform: rotate(90deg);
   font-weight: 200;
   font-size: 1.6rem;

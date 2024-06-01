@@ -23,7 +23,7 @@ const Experience = () => {
           <div className='image'><img src={cssIcon} alt='CSS' loading='lazy'/></div>
           <div className='image'><img src={Javascript} alt='Javascript' loading='lazy'/></div>
           <div className='image'><img src={ReactIcon} alt='React' loading='lazy'/></div>
-          <div className='image'><img src={nodeIcon} alt='NodeJS' loading='lazy'/></div>
+          {/* <div className='image'><img src={nodeIcon} alt='NodeJS' loading='lazy'/></div> */}
           <div className='image'><img src={mongodbIcon} alt='MongoDB' loading='lazy'/></div>
           <div className='image'><img src={tailwindIcon} alt='Tailwind' loading='lazy'/></div>
           <div className='image'><img src={nextIcon} alt='NextJS' loading='lazy'/></div>
@@ -32,7 +32,7 @@ const Experience = () => {
           <div className='image'><img src={cssIcon} alt='CSS' loading='lazy'/></div>
           <div className='image'><img src={Javascript} alt='Javascript' loading='lazy'/></div>
           <div className='image'><img src={ReactIcon} alt='React' loading='lazy'/></div>
-          <div className='image'><img src={nodeIcon} alt='NodeJS' loading='lazy'/></div>
+          {/* <div className='image'><img src={nodeIcon} alt='NodeJS' loading='lazy'/></div> */}
           <div className='image'><img src={mongodbIcon} alt='MongoDB' loading='lazy'/></div>
           <div className='image'><img src={tailwindIcon} alt='Tailwind' loading='lazy'/></div>
           <div className='image'><img src={nextIcon} alt='NextJS' loading='lazy'/></div>
@@ -70,7 +70,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Tailwind</h4>
+                <h4>TailwindCSS</h4>
               </div>
             </article>
             <article className='experience__details'>
@@ -88,37 +88,25 @@ const Experience = () => {
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>NodeJS</h4>
+                <h4>NextJS</h4>
               </div>
             </article>
-            <article className='experience__details'>
+            {/* <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>NodeJS</h4>
+              </div>
+            </article> */}
+            {/* <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>ExpressJS</h4>
               </div>
-            </article>
+            </article> */}
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>MongoDB</h4>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>SQL</h4>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>React Native</h4>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>NextJS</h4>
               </div>
             </article>
           </div>

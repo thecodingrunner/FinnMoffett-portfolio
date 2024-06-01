@@ -2,27 +2,24 @@ import React from 'react'
 import './footer.css'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>LOGO</a>
+      <Link to="#" className='footer__logo'>LOGO</Link>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to="#">Home</Link></li>
+        <li><Link to="#about">About</Link></li>
+        <li><Link to="#experience">Experience</Link></li>
+        <li><Link to="#portfolio">Portfolio</Link></li>
+        <li><Link to="#contact">Contact</Link></li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://github.com" name='github'><FaGithub /></a>
-        <a href="https://linkedin.com" name='linkedIn'><FaLinkedin /></a>
-      </div>
-
-      <div className="footer__copyright">
-        <small>&copy; Finn Moffett. All rights reserved.</small>
+        <Link to="https://github.com" name='github'><FaGithub /></Link>
+        <Link to="https://linkedin.com" name='linkedIn'><FaLinkedin /></Link>
       </div>
     </footer>
   )

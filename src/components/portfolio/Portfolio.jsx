@@ -1,50 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/blog-page.webp'
-import blogImg from '../../assets/Bouken-blog-snap3.png'
-import citifiMockup from '../../assets/citifi-snap-home-2.png'
-import boukenMarkup from '../../assets/Bouken-markup.png'
-
-const data = [
-  {
-    id: 1,
-    image: citifiMockup,
-    title: 'Citifi',
-    description: 'React website created for city branding company.',
-    stack: ['React','CSS','HTML'],
-    github: "https://github.com",
-    demo: "https://citifi.fly.dev",
-  },
-  {
-    id: 2,
-    image: boukenMarkup,
-    title: 'Bouken',
-    description: 'A website presenting my Japanese adventures. Full stack website created using the MERN stack. Includes creative parallax designs, GSAP animations etc.',
-    stack: ['React','NodeJS','Express','CSS','HTML'],
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
-  {
-    id: 3,
-    image: IMG1,
-    title: 'Dickie Melland',
-    description: 'MERN stack website designed for a professional photographer, with integrated ecommerce.',
-    stack: ['React','NodeJS','Express','CSS','HTML'],
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
-  {
-    id: 4,
-    image: blogImg,
-    title: 'MERN Blog',
-    description: 'MERN stack blog with authentication etc.',
-    stack: ['React','NodeJS','Express','CSS','HTML'],
-    github: "https://github.com",
-    demo: "https://github.com",
-  }
-]
+import data from '../../data/data.js'
+import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
+  console.log(data[1].demo)
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
@@ -54,7 +14,7 @@ const Portfolio = () => {
         {
           data.map(({id, image, title, description, stack, github, demo}) => {
             return (
-              <article key={id} className='portfolio__item'>
+              <article key={title} className='portfolio__item'>
                 <div className="portfolio__item-image">
                   <img src={image} alt={title} loading='lazy'/>
                 </div>
@@ -64,7 +24,8 @@ const Portfolio = () => {
                   <div className="stack__tools">{stack.map(tool => <div className='stack__tool'>{tool}</div>)}</div>
                   <div className='portfolio__item-cta'>
                     <a href={github} className='btn'>Github</a>
-                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <a href={`https://${demo}`} className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <Link to={`/projects/${id}`} className='btn'>Info</Link>
                   </div>
                 </div>
               </article>
