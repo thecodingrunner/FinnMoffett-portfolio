@@ -40,7 +40,7 @@ const Project = () => {
                     <h2>Photos</h2>
                     <div className="photos__container">
                         {photos.map((photo) => (
-                            <img src={photo} />
+                            <img className="photo" src={photo} />
                         ))}
                     </div>
                 </div>

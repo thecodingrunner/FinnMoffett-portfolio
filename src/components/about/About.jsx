@@ -17,9 +17,9 @@ const About = () => {
         </div>
         <div className="about__content">
 
-          <p>I create creative websites and applications using the MERN stack. After graduating with a Masters degree in Mechanical Engineering, and living in Japan for 6 months, I discovered Web Development, and since then have committed myself to becoming a professional developer. The concept of creating creative and stylish web solutions and applications is exciting to me.</p>
+          <p>I create creative websites and applications using the React and NextJS stack. After graduating with a Masters degree in Mechanical Engineering, and living in Japan for 6 months, I discovered Web Development, and since then have committed myself to becoming a professional developer. The concept of creating innovative and stylish web solutions and applications is exciting to me.</p>
 
-          <Link to="#contact" className='btn btn-primary'>Let's Talk</Link>
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>

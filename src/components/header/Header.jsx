@@ -36,7 +36,7 @@ const Header = () => {
         <CTA /> 
         <HeaderSocials />
 
-        <Link to="#contact" className='scroll__down'>Scroll Down</Link>
+        <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
     </header>
   )

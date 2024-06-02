@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer>
-      <Link to="#" className='footer__logo'>LOGO</Link>
+      <Link to="#" className='footer__logo'>Finn Moffett</Link>
 
       <ul className='permalinks'>
         <li><Link to="#">Home</Link></li>
@@ -18,8 +18,8 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <Link to="https://github.com" name='github'><FaGithub /></Link>
-        <Link to="https://linkedin.com" name='linkedIn'><FaLinkedin /></Link>
+        <Link to="https://github.com/thecodingrunner" name='github'><FaGithub /></Link>
+        <Link to="https://www.linkedin.com/in/finnmoffett/" name='linkedIn'><FaLinkedin /></Link>
       </div>
     </footer>
   )

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './nav.css'
 import { IoHomeOutline } from "react-icons/io5";
 import { LuUser2 } from "react-icons/lu";
@@ -6,10 +6,15 @@ import { MdOutlineLibraryBooks } from "react-icons/md";
 import { CgWebsite } from "react-icons/cg";
 import { FaRegMessage } from "react-icons/fa6";
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('/#')
+
+  const location = useLocation()
+  console.log(location.pathname + location.hash)
+  const loc = location.pathname + location.hash
+
 
   return (
     <nav>
