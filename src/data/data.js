@@ -17,6 +17,14 @@ import citifi3 from '../assets/citifi-3.png'
 import citifi4 from '../assets/citifi-4.png'
 import citifi5 from '../assets/citifi-5.png'
 
+import dickiemellie1 from '../assets/dickiemellie-1.png'
+import dickiemellie2 from '../assets/dickiemellie-2.png'
+import dickiemellie3 from '../assets/dickiemellie-3.png'
+import dickiemellie4 from '../assets/dickiemellie-4.png'
+import dickiemellie5 from '../assets/dickiemellie-5.png'
+import dickiemellie6 from '../assets/dickiemellie-6.png'
+
+
 const data = [
     {
       id: 1,
@@ -27,8 +35,8 @@ const data = [
       explanation: 'This project was coded using NextJS, MongoDB for the database, and Stripe for the ecommerce integration. The most difficult aspects of this project were the integration of stripe, and the creation of an admin platform with a simple interface for the artist to add products to the shop.',
       stack: ['NextJS','React','MongoDB','TailwindCSS','HTML','Stripe'],
       github: "https://github.com/thecodingrunner/ecommerce-front-tailwind",
-      demo: "www.dickiemellie.com",
-      photos: [],
+      demo: "https://www.dickiemellie.com",
+      photos: [dickiemellie1, dickiemellie2, dickiemellie3, dickiemellie4, dickiemellie5, dickiemellie6],
     },
     {
       id: 2,
@@ -39,7 +47,7 @@ const data = [
       explanation: 'This project was designed in figma and coded using react js. Features include responsive design for use on all device sizes, smooth css animations, and an emailjs contact form. The most difficult aspects of this project were creating a consistent yet creative design for the clients needs, and implementing responsiveness.',
       stack: ['React','CSS','HTML','EmailJS'],
       github: "https://github.com/thecodingrunner/citifi-vite",
-      demo: "www.citifi.biz",
+      demo: "https://www.citifi.biz",
       photos: [citifi1, citifi2, citifi3, citifi4, citifi5],
     },
     {
