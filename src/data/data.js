@@ -3,6 +3,7 @@ import blogImg from '../assets/Bouken-blog-snap3.png'
 import citifiMarkup from '../assets/citifi-markup.png'
 import boukenMarkup from '../assets/Bouken-markup.png'
 import aozoraScraperMarkup from '../assets/aozorascraper-markup.png'
+import martialChartsMarkup from '../assets/martialcharts-markup.png'
 
 // photos
 import aozorascraper1 from '../assets/aozorascraper-1.png'
@@ -24,15 +25,19 @@ import dickiemellie4 from '../assets/dickiemellie-4.png'
 import dickiemellie5 from '../assets/dickiemellie-5.png'
 import dickiemellie6 from '../assets/dickiemellie-6.png'
 
+import martialcharts1 from '../assets/martial-charts-1.png'
+import martialcharts2 from '../assets/martial-charts-2.png'
+import martialcharts3 from '../assets/martial-charts-3.png'
+
 
 const data = [
     {
       id: 1,
       image: dickieMellieMarkup,
       title: 'Dickie Mellie',
-      description: 'NextJS website designed for a local artist photographer, with an ecommerce shop integrated using stripe.',
-      purpose: 'The goal of this project was to create a presentational website for a local artist/photographer with an integrated ecommerce shop. The primary purpose is to present the artists work, with a shop for local businesses to purchase products such as cards and mugs.',
-      explanation: 'This project was coded using NextJS, MongoDB for the database, and Stripe for the ecommerce integration. The most difficult aspects of this project were the integration of stripe, and the creation of an admin platform with a simple interface for the artist to add products to the shop.',
+      description: 'NextJS website designed for a local artist, with an ecommerce shop integrated using stripe.',
+      purpose: 'The goal of this project was to create a website presenting the work of a local artist/photographer with an integrated ecommerce shop. The primary purpose is to present the artists work, with a shop for local businesses to purchase products such as cards and mugs.',
+      explanation: 'This project was coded using NextJS, with a MongoDB database, and Stripe for the ecommerce integration. The most challenging aspects of this project were the integration of Stripe, and the creation of an admin platform with a simple interface for the artist to add products to the shop.',
       stack: ['NextJS','React','MongoDB','TailwindCSS','HTML','Stripe'],
       github: "https://github.com/thecodingrunner/ecommerce-front-tailwind",
       demo: "https://www.dickiemellie.com",
@@ -54,9 +59,9 @@ const data = [
       id: 3,
       image: aozoraScraperMarkup,
       title: 'Aozora Scraper',
-      description: 'Next JS application that scrapes an online library resource using puppeteer, analyses the text, and presents it in a readable kindle style.',
-      purpose: 'The goal of this project was to create a tool for Japanese language learners that bridges the gap between their current skill level, and an extremely valuable yet difficult to use resource. Aozora Bunko is an online resource of roughly 20,000 Japanese texts/books, but can be difficult to navigate not enjoyable to read on. By simply pasting a book url into Aozora Scraper, the tool then scrapes the website, analyses the text, and provides the text in a much more readable format.',
-      explanation: 'This project was coded using NextJS, with Puppeteer and Cheerio used for web scraping. Some challenging aspects of creating this website included: correctly scraping the information from poorly structured html, fetching a large word frequency JSON file and using the data to calculate difficulty scores, integrating Next Auth, integrating a Mongo DB for adding books, integrating CRUD operations for adding and editing books.',
+      description: 'Next JS application that scrapes an online library resource using puppeteer, analyses the text, and presents both book statistics and the book statistics and the text in a readable kindle style.',
+      purpose: 'The goal of this project was to create a tool for Japanese language learners that bridges the gap between their current skill level, and an extremely valuable yet difficult to use library resource. Aozora Bunko is an online resource of roughly 20,000 Japanese texts/books, but can be complicated to navigate and difficult to read texts on. By simply pasting a book url into Aozora Scraper, the application scrapes the website, analyses the text, provides statistics on the text, and displays the text in a much more readable format.',
+      explanation: 'This project was coded using NextJS, with Puppeteer and Cheerio used for web scraping. Some challenging aspects of creating this website included: correctly scraping the information from poorly structured html, fetching a word frequency JSON files and using the data to calculate difficulty scores, integrating Next Auth, integrating a Mongo DB for adding books, integrating CRUD operations for adding and editing books.',
       stack: ['NextJS','React','MongoDB','Puppeteer','TailwindCSS','Cheerio', 'Next Auth'],
       github: "https://github.com/thecodingrunner/aozora-scraper",
       demo: "https://github.com",
@@ -64,24 +69,36 @@ const data = [
     },
     {
       id: 4,
-      image: boukenMarkup,
-      title: 'Bouken',
-      description: 'A website presenting my Japanese adventures. Full stack website created using the MERN stack. Includes creative parallax designs, GSAP animations etc.',
-      purpose: 'The goal of this project was to create a sleek and professional website for a local city branding consultancy. The client requested a modern design with a hexagon theme and honeycomb color theme.',
-      explanation: 'This project was designed in figma and coded using react js. Features include responsiveness for all device sizes, smooth css animations, and an emailjs contact form. The most difficult aspects of this project were creating a consistent yet creative design for the clients needs, and implementing responsiveness.',
-      stack: ['React','NodeJS','Express','CSS','HTML'],
+      image: martialChartsMarkup,
+      title: 'Martial Charts',
+      description: 'A NextJS web application combining a fullstack platform for measuring and analysing workouts, and a stylish frontend website demonstrating Martial Charts (the platform) as a brand, with dynamic animations using Framer motion.',
+      purpose: 'The goal of this project was twofold. The first was to create a fullstack platform capable of measuring workouts, providing in-depth analysis, and allowing workouts to be saved on a database. The second was express the platforms brand and ethos in the form of a stylish frontend landing page.',
+      explanation: 'This is a fullstack NextJS project that implements ... for connecting to external arduino devices, CRUD methods for saving and viewing workouts, and framer motion for animations. The website was was designed in figma, and brought to life using framer motion animations. Many framer motion principles were implemented to create a dynamic interface.',
+      stack: ['NextJS','React','Framer Motion','TailwindCSS'],
+      github: "https://github.com/thecodingrunner/martial-charts",
+      demo: "https://github.com",
+      photos: [martialcharts1, martialcharts2, martialcharts3],
+    },
+    {
+      id: 5,
+      image: blogImg,
+      title: 'Bouken Blog',
+      description: 'Fullstack NextJS blog website presenting my Japanese adventures.',
+      purpose: 'The goal of this project was to create a blog website for myself and others to present their adventures. Having kept a blog to record my adventures cycling the length of Japan, I wanted to make a website to present this blog, and allow others to contribute with their own adventures.',
+      explanation: 'This project is fullstack, using all CRUD methods to allow creation, editting, display and deletion of blog posts. The site was designed on figma and used Framer Motion for animations.',
+      stack: ['NextJS','React','Framer Motion','TailwindCSS'],
       github: "https://github.com",
       demo: "https://github.com",
       photos: [],
     },
     {
-      id: 5,
+      id: 6,
       image: blogImg,
-      title: 'MERN Blog',
-      description: 'MERN stack blog with authentication etc.',
-      purpose: 'The goal of this project was to create a sleek and professional website for a local city branding consultancy. The client requested a modern design with a hexagon theme and honeycomb color theme.',
-      explanation: 'This project was designed in figma and coded using react js. Features include responsiveness for all device sizes, smooth css animations, and an emailjs contact form. The most difficult aspects of this project were creating a consistent yet creative design for the clients needs, and implementing responsiveness.',
-      stack: ['React','NodeJS','Express','CSS'],
+      title: 'Atina Networks & Renewables',
+      description: 'Frontend Networks and Renewables company website.',
+      purpose: 'The goal of this project was to design and develop a frontend company website for a Telecommunications and Renewables company. The website includes a dynamic and stylish landing page, and seperate pages for the Networks (mobile telecoms) and Renewables (heat pumps) services.',
+      explanation: 'This is a frontend project that was designed in figma and developed in NextJS. Dynamic animations were created using Framer Motion.',
+      stack: ['NextJS','React','Framer Motion','TailwindCSS'],
       github: "https://github.com",
       demo: "https://github.com",
       photos: [],

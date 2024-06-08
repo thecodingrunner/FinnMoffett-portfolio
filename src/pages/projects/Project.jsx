@@ -20,10 +20,11 @@ const Project = () => {
                 <h1 className="title">{title}</h1>
                 <div className="image-container">
                     <img src={image} alt="" />
+                    <a href="#photos" className='scroll__down photos_link'>View Photos</a>
                 </div>
                 <div className="description">
                     <h2>Description</h2>
-                    <a href={github} className='btn'>Github</a>
+                    <a href={github} className='btn' target="_blank">Github</a>
                     <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
                     <p>{description}</p>
                 </div>
@@ -36,7 +37,7 @@ const Project = () => {
                     <div className="stack__tools">{stack.map(tool => <div className='stack__tool'>{tool}</div>)}</div>
                     <p>{explanation}</p>
                 </div>
-                <div className="photos">
+                <div id="photos" className="photos">
                     <h2>Photos</h2>
                     <div className="photos__container">
                         {photos.map((photo) => (
