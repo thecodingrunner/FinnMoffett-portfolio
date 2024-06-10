@@ -1,7 +1,7 @@
 import dickieMellieMarkup from '../assets/dickiemellie-markup.png'
 import blogImg from '../assets/Bouken-blog-snap3.png'
 import citifiMarkup from '../assets/citifi-markup.png'
-import boukenMarkup from '../assets/Bouken-markup.png'
+import boukenMarkup from '../assets/bouken markup.png'
 import aozoraScraperMarkup from '../assets/aozorascraper-markup.png'
 import martialChartsMarkup from '../assets/martialcharts-markup.png'
 
@@ -69,6 +69,18 @@ const data = [
     },
     {
       id: 4,
+      image: boukenMarkup,
+      title: 'Bouken Blog',
+      description: 'Fullstack NextJS blog website presenting my Japanese adventures.',
+      purpose: 'The goal of this project was to create a blog website for myself and others to present their adventures. Having kept a blog to record my adventures cycling the length of Japan, I wanted to make a website to present this blog, and allow others to contribute with their own adventures.',
+      explanation: 'This project is fullstack, using all CRUD methods to allow creation, editting, display and deletion of blog posts. The site was designed on figma and used Framer Motion for animations.',
+      stack: ['NextJS','React','Framer Motion','TailwindCSS'],
+      github: "https://github.com",
+      demo: "https://github.com",
+      photos: [],
+    },
+    {
+      id: 5,
       image: martialChartsMarkup,
       title: 'Martial Charts',
       description: 'A NextJS web application combining a fullstack platform for measuring and analysing workouts, and a stylish frontend website demonstrating Martial Charts (the platform) as a brand, with dynamic animations using Framer motion.',
@@ -80,23 +92,11 @@ const data = [
       photos: [martialcharts1, martialcharts2, martialcharts3],
     },
     {
-      id: 5,
-      image: blogImg,
-      title: 'Bouken Blog',
-      description: 'Fullstack NextJS blog website presenting my Japanese adventures.',
-      purpose: 'The goal of this project was to create a blog website for myself and others to present their adventures. Having kept a blog to record my adventures cycling the length of Japan, I wanted to make a website to present this blog, and allow others to contribute with their own adventures.',
-      explanation: 'This project is fullstack, using all CRUD methods to allow creation, editting, display and deletion of blog posts. The site was designed on figma and used Framer Motion for animations.',
-      stack: ['NextJS','React','Framer Motion','TailwindCSS'],
-      github: "https://github.com",
-      demo: "https://github.com",
-      photos: [],
-    },
-    {
       id: 6,
       image: blogImg,
       title: 'Atina Networks & Renewables',
       description: 'Frontend Networks and Renewables company website.',
-      purpose: 'The goal of this project was to design and develop a frontend company website for a Telecommunications and Renewables company. The website includes a dynamic and stylish landing page, and seperate pages for the Networks (mobile telecoms) and Renewables (heat pumps) services.',
+      purpose: 'The goal of this project was to design and develop a website for a Telecommunications and Renewables company. The website includes a dynamic and stylish landing page, seperate pages for the Networks (mobile telecoms) and Renewables (heat pumps) services, and an AI chatbot.',
       explanation: 'This is a frontend project that was designed in figma and developed in NextJS. Dynamic animations were created using Framer Motion.',
       stack: ['NextJS','React','Framer Motion','TailwindCSS'],
       github: "https://github.com",

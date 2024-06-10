@@ -6,7 +6,7 @@
   /* background-color: var(--color-white); */
   gap: 60px;
   color: var(--color-white);
-  margin: 60px auto;
+  margin: 10px auto;
 }
 
 .stack__tools {
@@ -14,6 +14,12 @@
   gap: 5px;
   margin: 20px 0;
   flex-wrap: wrap;
+}
+
+.portfolio__container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .stack__tool {
@@ -46,14 +52,21 @@
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-
+  /* .portfolio__item {
+    gap: 40px;
+    margin: 40px auto;
+  } */
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
   .portfolio__item {
     grid-template-columns: 1fr;
-    gap: 10px;
-    margin-bottom: 40px;
+    gap: 20px;
+    margin: 0px auto;
   }
+}
+
+.portfolio__title {
+  margin-bottom: 20px;
 }

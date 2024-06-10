@@ -1,5 +1,5 @@
 .project-section {
-    width: 1000px;
+    width: 70vw;
     margin: 2rem auto;
 }
 
@@ -45,4 +45,29 @@ h2 {
 
 .photos_link {
     margin-right: 4rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .project-section {
+        width: 90vw;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .photos__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        padding: 10px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .title {
+        text-align: center;
+    }
 }
