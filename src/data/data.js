@@ -29,6 +29,11 @@ import martialcharts1 from '../assets/martial-charts-1.png'
 import martialcharts2 from '../assets/martial-charts-2.png'
 import martialcharts3 from '../assets/martial-charts-3.png'
 
+import bouken1 from '../assets/bouken-1.png'
+import bouken2 from '../assets/bouken-2.png'
+import bouken3 from '../assets/bouken-3.png'
+import bouken4 from '../assets/bouken-4.png'
+import bouken5 from '../assets/bouken-5.png'
 
 const data = [
     {
@@ -77,7 +82,7 @@ const data = [
       stack: ['NextJS','React','Framer Motion','TailwindCSS'],
       github: "https://github.com",
       demo: "https://github.com",
-      photos: [],
+      photos: [bouken2, bouken1, bouken3, bouken4, bouken5],
     },
     {
       id: 5,
