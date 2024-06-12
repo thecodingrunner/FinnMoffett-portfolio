@@ -1,10 +1,10 @@
 
 .portfolio__item {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: 1.2fr 0.8fr;
   /* grid-template-columns: 1.2fr 0.8fr; */
   /* background-color: var(--color-white); */
-  gap: 60px;
+  gap: 40px;
   color: var(--color-white);
   margin: 10px auto;
 }
@@ -28,6 +28,7 @@
   color: var(--color-primary);
   border-radius: 5px;
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 /* .stack__tool:hover {
@@ -39,6 +40,7 @@
 .portfolio__item-text h3 {
   color: var(--color-primary);
   font-size: 1.5rem;
+  margin-top: 15px;
 }
 
 .portfolio__item-text p {

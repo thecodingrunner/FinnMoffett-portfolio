@@ -79,9 +79,9 @@ const data = [
       description: 'Fullstack NextJS blog website presenting my Japanese adventures.',
       purpose: 'The goal of this project was to create a blog website for myself and others to present their adventures. Having kept a blog to record my adventures cycling the length of Japan, I wanted to make a website to present this blog, and allow others to contribute with their own adventures.',
       explanation: 'This project is fullstack, using all CRUD methods to allow creation, editting, display and deletion of blog posts. The site was designed on figma and used Framer Motion for animations.',
-      stack: ['NextJS','React','Framer Motion','TailwindCSS'],
+      stack: ['NextJS','React','MongoDB','Next Auth','Framer Motion','TailwindCSS'],
       github: "https://github.com",
-      demo: "https://github.com",
+      demo: "https://bouken-blog.azurewebsites.net/",
       photos: [bouken2, bouken1, bouken3, bouken4, bouken5],
     },
     {

@@ -19,8 +19,8 @@ const Nav = () => {
   return (
     <nav>
       <a name='home' id='/#' href="/#" className={activeNav === '/#' ? 'active' : ''} onClick={() => setActiveNav('/#')}><IoHomeOutline /></a>
-      <a name='about' id='/#about' href="/#about" className={activeNav === '/#about' ? 'active' : ''} onClick={() => setActiveNav('/#about')}><LuUser2 /></a>
-      <a name='experience' id='/#experience' href="/#experience" className={activeNav === '/#experience' ? 'active' : ''} onClick={() => setActiveNav('/#experience')}><MdOutlineLibraryBooks /></a>
+      <a name='profile' id='/#profile' href="/#profile" className={activeNav === '/#profile' ? 'active' : ''} onClick={() => setActiveNav('/#profile')}><LuUser2 /></a>
+      {/* <a name='experience' id='/#experience' href="/#experience" className={activeNav === '/#experience' ? 'active' : ''} onClick={() => setActiveNav('/#experience')}><MdOutlineLibraryBooks /></a> */}
       <a name='portfolio' id='/#portfolio' href="/#portfolio" className={activeNav === '/#portfolio' ? 'active' : ''} onClick={() => setActiveNav('/#portfolio')}><CgWebsite /></a>
       <a name='contact' id='/#contact' href="/#contact" className={activeNav === '/#contact' ? 'active' : ''} onClick={() => setActiveNav('/#contact')}><FaRegMessage /></a>
     </nav>

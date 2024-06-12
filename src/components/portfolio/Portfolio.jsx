@@ -15,7 +15,7 @@ const Portfolio = () => {
           data.map(({id, image, title, description, stack, github, demo}, index) => {
             return (
               <>
-                {index % 2 === 0 ? (
+                {/* {index % 2 === 0 ? ( */}
                   <article className='portfolio__item' key={index}>
                     <div className="portfolio__item-image">
                       <img src={image} alt={title} loading='lazy'/>
@@ -31,8 +31,8 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </article>
-                ) : (
-                  <article className='portfolio__item' key={index}>
+                {/* ) : ( */}
+                  {/* <article className='portfolio__item' key={index}>
                     <div className='portfolio__item-text'>
                       <h3>{title}</h3>
                       <p>{description}</p>
@@ -47,7 +47,7 @@ const Portfolio = () => {
                       <img src={image} alt={title} loading='lazy'/>
                     </div>
                   </article>
-                )}
+                )} */}
               </>
             )
           })

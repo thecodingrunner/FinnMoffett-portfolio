@@ -7,6 +7,7 @@ import Contact from '../components/contacts/Contact'
 import Footer from '../components/footer/Footer'
 import Portfolio from '../components/portfolio/Portfolio'
 import Cursor from '../components/cursor/Cursor'
+import Profile from '../components/profile/Profile'
 
 const Home = () => {
   return (
@@ -14,8 +15,9 @@ const Home = () => {
       <Cursor />
       <Header />
       <Nav />
-      <About />
-      <Experience />
+      {/* <About /> */}
+      <Profile />
+      {/* <Experience /> */}
       <Portfolio />
       <Contact />
       <Footer />
