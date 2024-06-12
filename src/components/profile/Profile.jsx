@@ -1,8 +1,6 @@
 import React from 'react'
 import './profile.css'
 import ME from '../../assets/profile-image.jpg'
-import { Link } from 'react-router-dom'
-import { BsFillPatchCheckFill } from 'react-icons/bs'
 import htmlIcon from '../../assets/HTML-5-Badge-Logo.png'
 import cssIcon from '../../assets/CSS3_logo.svg.png'
 import Javascript from '../../assets/Javascript.jpg'
@@ -34,37 +32,31 @@ const Profile = () => {
                     <h3>Frontend Development</h3>
                     <div className="experience__content">
                         <article className='experience__details'>
-                            {/* <BsFillPatchCheckFill className='experience__details-icon'/> */}
                             <div>
                                 <h4>HTML</h4>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            {/* <BsFillPatchCheckFill className='experience__details-icon'/> */}
                             <div>
                                 <h4>CSS</h4>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            {/* <BsFillPatchCheckFill className='experience__details-icon'/> */}
                             <div>
                                 <h4>Javascript</h4>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            {/* <BsFillPatchCheckFill className='experience__details-icon'/> */}
                             <div>
                                 <h4>React</h4>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            {/* <BsFillPatchCheckFill className='experience__details-icon'/> */}
                             <div>
                                 <h4>TailwindCSS</h4>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            {/* <BsFillPatchCheckFill className='experience__details-icon'/> */}
                             <div>
                                 <h4>Framer Motion</h4>
                             </div>
@@ -76,28 +68,14 @@ const Profile = () => {
                     <h3>Backend Development</h3>
                     <div className="experience__content">
                         <article className='experience__details'>
-                        {/* <BsFillPatchCheckFill className='experience__details-icon'/> */}
-                        <div>
-                            <h4>NextJS</h4>
-                        </div>
+                            <div>
+                                <h4>NextJS</h4>
+                            </div>
                         </article>
-                        {/* <article className='experience__details'>
-                        <BsFillPatchCheckFill className='experience__details-icon'/>
-                        <div>
-                            <h4>NodeJS</h4>
-                        </div>
-                        </article> */}
-                        {/* <article className='experience__details'>
-                        <BsFillPatchCheckFill className='experience__details-icon'/>
-                        <div>
-                            <h4>ExpressJS</h4>
-                        </div>
-                        </article> */}
                         <article className='experience__details'>
-                        {/* <BsFillPatchCheckFill className='experience__details-icon'/> */}
-                        <div>
-                            <h4>MongoDB</h4>
-                        </div>
+                            <div>
+                                <h4>MongoDB</h4>
+                            </div>
                         </article>
                     </div>
                 </div>
