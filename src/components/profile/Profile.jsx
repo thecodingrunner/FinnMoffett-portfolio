@@ -1,6 +1,7 @@
 import React from 'react'
 import './profile.css'
 import ME from '../../assets/profile-image.jpg'
+import profileImg from '../../assets/ProfileFinnMoffett.jpg'
 import htmlIcon from '../../assets/HTML-5-Badge-Logo.png'
 import cssIcon from '../../assets/CSS3_logo.svg.png'
 import Javascript from '../../assets/Javascript.jpg'
@@ -20,7 +21,7 @@ const Profile = () => {
             <div className="about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={ME} alt="About Image" loading='lazy' fetchPriority='high'/>
+                        <img src={profileImg} alt="About Image" loading='lazy' fetchPriority='high'/>
                     </div>
                 </div>
                 <div className="about__content">
@@ -75,6 +76,11 @@ const Profile = () => {
                         <article className='experience__details'>
                             <div>
                                 <h4>MongoDB</h4>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <div>
+                                <h4>NodeJS</h4>
                             </div>
                         </article>
                     </div>

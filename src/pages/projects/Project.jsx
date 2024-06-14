@@ -46,7 +46,6 @@ const Project = () => {
                     </div>
                 </div>
             </section>
-            <Nav />
             <Footer />
         </>
 
