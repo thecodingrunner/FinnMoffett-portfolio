@@ -38,18 +38,6 @@ import bouken5 from '../assets/bouken-5.png'
 const data = [
     {
       id: 1,
-      image: dickieMellieMarkup,
-      title: 'Dickie Mellie',
-      description: 'NextJS website designed for a local artist, with an ecommerce shop integrated using stripe.',
-      purpose: 'The goal of this project was to create a website presenting the work of a local artist/photographer, with an integrated ecommerce shop. The primary purpose is to present the artists work, with a shop for local businesses to purchase products such as cards and mugs.',
-      explanation: 'This project was coded using NextJS, with a MongoDB database, and Stripe for the ecommerce integration. The most challenging aspects of this project were the integration of Stripe, and the creation of an admin platform with a simple interface for adding products to the shop.',
-      stack: ['NextJS','React','MongoDB','TailwindCSS','HTML','Stripe'],
-      github: "https://github.com/thecodingrunner/ecommerce-front-tailwind",
-      demo: "https://www.dickiemellie.com",
-      photos: [dickiemellie1, dickiemellie2, dickiemellie3, dickiemellie4, dickiemellie5, dickiemellie6],
-    },
-    {
-      id: 2,
       image: citifiMarkup,
       title: 'Citifi',
       description: 'React website created for city branding company.',
@@ -59,6 +47,18 @@ const data = [
       github: "https://github.com/thecodingrunner/citifi-vite",
       demo: "https://www.citifi.biz",
       photos: [citifi1, citifi2, citifi3, citifi4, citifi5],
+    },
+    {
+      id: 2,
+      image: dickieMellieMarkup,
+      title: 'Dickie Mellie',
+      description: 'NextJS website designed for a local artist, with an ecommerce shop integrated using stripe.',
+      purpose: 'The goal of this project was to create a website presenting the work of a local artist/photographer, with an integrated ecommerce shop. The primary purpose is to present the artists work, with a shop for local businesses to purchase products such as cards and mugs.',
+      explanation: 'This project was coded using NextJS, with a MongoDB database, and Stripe for the ecommerce integration. The most challenging aspects of this project were the integration of Stripe, and the creation of an admin platform with a simple interface for adding products to the shop.',
+      stack: ['NextJS','React','MongoDB','TailwindCSS','HTML','Stripe'],
+      github: "https://github.com/thecodingrunner/ecommerce-front-tailwind",
+      demo: "https://www.dickiemellie.com",
+      photos: [dickiemellie1, dickiemellie2, dickiemellie3, dickiemellie4, dickiemellie5, dickiemellie6],
     },
     {
       id: 3,

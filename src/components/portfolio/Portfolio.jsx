@@ -25,9 +25,9 @@ const Portfolio = () => {
                       <p>{description}</p>
                       <div className="stack__tools">{stack.map(tool => <div className='stack__tool'>{tool}</div>)}</div>
                       <div className='portfolio__item-cta'>
-                        <a href={github} className='btn' target='_blank'>Github</a>
-                        <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
                         <Link to={`/projects/${id}`} className='btn'>Info Page</Link>
+                        <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <a href={github} className='btn' target='_blank'>Github</a>
                       </div>
                     </div>
                   </article>
