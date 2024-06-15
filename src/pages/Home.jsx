@@ -10,7 +10,6 @@ import Profile from '../components/profile/Profile'
 const Home = () => {
   return (
     <>
-      <Cursor />
       <Header />
       <Nav />
       <Profile />
