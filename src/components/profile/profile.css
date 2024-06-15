@@ -171,11 +171,6 @@
 
 @media screen and (max-width: 950px) {
   .about__container {
-    /* height: 70vh;
-    width: 60vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
-    grid-template-rows: 50% 45%;
     gap: 5%;
     grid-template-areas: 
         "bio bio bio bio bio bio"
@@ -190,7 +185,6 @@
 @media screen and (max-width: 650px) {
   .about__container {
     height: auto;
-    /* width: 60vw; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
