@@ -11,7 +11,7 @@ const Project = () => {
     let projectData = data.filter(project => project.id === Number(projectId))
     console.log(projectData)
 
-    const {id, image, title, description, purpose, explanation, stack, github, demo, photos} = projectData[0]
+    const {id, image, title, description, purpose, explanation, stack, github, demo, photos, bulletpoints} = projectData[0]
     console.log(photos)
 
     return (
@@ -36,6 +36,13 @@ const Project = () => {
                     <h2>Webstack and Explanation</h2>
                     <div className="stack__tools">{stack.map(tool => <div className='stack__tool'>{tool}</div>)}</div>
                     <p>{explanation}</p>
+                    {bulletpoints && (
+                        <ul className="bulletpoints">
+                            {bulletpoints.map((point) => (
+                                <li key={point.slice(0,5)} className="bulletpoint">{point}</li>
+                            ))}
+                        </ul>
+                    )}
                 </div>
                 <div id="photos" className="photos">
                     <h2>Photos</h2>

@@ -47,6 +47,17 @@ h2 {
     margin-right: 4rem;
 }
 
+.bulletpoints {
+    margin-top: 1rem;
+}
+
+.bulletpoint {
+    font-size: 1.3rem;
+    list-style-type: circle;
+    list-style-position: inside;
+    line-height: 2;
+}
+
 @media screen and (max-width: 1000px) {
     .project-section {
         width: 90vw;
