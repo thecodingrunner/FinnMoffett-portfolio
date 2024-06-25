@@ -4,6 +4,7 @@ import citifiMarkup from '../assets/citifi-markup.png'
 import boukenMarkup from '../assets/bouken markup.png'
 import aozoraScraperMarkup from '../assets/aozorascraper-markup.png'
 import martialChartsMarkup from '../assets/martialcharts-markup.png'
+import hatsugenMarkup from '../assets/hatsugen-markup.png'
 
 // photos
 import aozorascraper1 from '../assets/aozorascraper-1.png'
@@ -35,6 +36,12 @@ import bouken3 from '../assets/bouken-3.png'
 import bouken4 from '../assets/bouken-4.png'
 import bouken5 from '../assets/bouken-5.png'
 
+import hatsugen1 from '../assets/hatsugen-1.png'
+import hatsugen2 from '../assets/hatsugen-2.png'
+import hatsugen3 from '../assets/hatsugen-3.png'
+import hatsugen4 from '../assets/hatsugen-5.png'
+import hatsugen5 from '../assets/hatsugen-6.png'
+
 const data = [
     {
       id: 1,
@@ -47,6 +54,7 @@ const data = [
       github: "https://github.com/thecodingrunner/citifi-vite",
       demo: "https://www.citifi.biz",
       photos: [citifi1, citifi2, citifi3, citifi4, citifi5],
+      category: ['Frontend', 'All'],
     },
     {
       id: 2,
@@ -59,6 +67,7 @@ const data = [
       github: "https://github.com/thecodingrunner/ecommerce-front-tailwind",
       demo: "https://www.dickiemellie.com",
       photos: [dickiemellie1, dickiemellie2, dickiemellie3, dickiemellie4, dickiemellie5, dickiemellie6],
+      category: ['Frontend', 'Fullstack', 'All'],
       bulletpoints: ['Developed and deployed a Next.js website with Stripe-integrated e-commerce functionality', 'Built an admin dashboard using Next.js, MongoDB, and AWS S3 for image storage', 'Utilized responsive design and accessibility best practices, achieving a 96% accessibility score on Lighthouse', 'Utilized Figma for iterative design process, collaborating closely with clients and completing the project 2 weeks ahead of schedule'],
     },
     {
@@ -72,6 +81,7 @@ const data = [
       github: "https://github.com",
       demo: "https://bouken-blog.fly.dev",
       photos: [bouken2, bouken1, bouken3, bouken4, bouken5],
+      category: ['Fullstack', 'All'],
     },
     {
       id: 4,
@@ -84,6 +94,20 @@ const data = [
       github: "https://github.com/thecodingrunner/aozora-scraper",
       demo: "https://github.com",
       photos: [aozorascraper1,aozorascraper2,aozorascraper3,aozorascraper4,aozorascraper5],
+      category: ['Fullstack', 'All'],
+    },
+    {
+      id: 5,
+      image: hatsugenMarkup,
+      title: 'Hatsugen',
+      description: 'Next JS application that scrapes an online library resource using puppeteer, analyses the text, and presents both the book statistics and the text in a readable kindle style.',
+      purpose: 'The goal of this project was to create a tool for Japanese language learners that bridges the gap between their current skill level, and an extremely valuable yet difficult to use library resource. Aozora Bunko is an online resource of roughly 20,000 Japanese texts/books, but can be complicated to navigate and difficult to read texts on. By simply pasting a book url into Aozora Scraper, the application scrapes the website, analyses the text, provides statistics on the text, and displays the text in a much more readable format.',
+      explanation: 'This project was coded using NextJS, with Puppeteer and Cheerio used for web scraping. Some challenging aspects of creating this website included: correctly scraping the information from poorly structured html, fetching a word frequency JSON files and using the data to calculate difficulty scores, integrating Next Auth, integrating a Mongo DB for adding books, integrating CRUD operations for adding and editing books.',
+      stack: ['NextJS','React','MongoDB','Puppeteer','TailwindCSS','Cheerio', 'Next Auth'],
+      github: "https://github.com/thecodingrunner/hatsugen",
+      demo: "https://github.com",
+      photos: [hatsugen1,hatsugen2,hatsugen3,hatsugen4,hatsugen5],
+      category: ['Fullstack', 'All'],
     }
     // {
     //   id: 5,

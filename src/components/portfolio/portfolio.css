@@ -53,6 +53,26 @@
   margin-bottom: 10px;
 }
 
+.category-filter {
+  display: flex;
+  gap: 1rem;
+  margin-inline: auto;
+  justify-content: center;
+}
+
+.category-button {
+  padding: 5px 10px;
+  border: 1px var(--color-primary) solid;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.category-selected {
+  background-color: var(--color-primary);
+  color: white;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
   /* .portfolio__item {
