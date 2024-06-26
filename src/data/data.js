@@ -96,19 +96,19 @@ const data = [
       photos: [aozorascraper1,aozorascraper2,aozorascraper3,aozorascraper4,aozorascraper5],
       category: ['Fullstack', 'All'],
     },
-    {
-      id: 5,
-      image: hatsugenMarkup,
-      title: 'Hatsugen',
-      description: 'Next JS application that scrapes an online library resource using puppeteer, analyses the text, and presents both the book statistics and the text in a readable kindle style.',
-      purpose: 'The goal of this project was to create a tool for Japanese language learners that bridges the gap between their current skill level, and an extremely valuable yet difficult to use library resource. Aozora Bunko is an online resource of roughly 20,000 Japanese texts/books, but can be complicated to navigate and difficult to read texts on. By simply pasting a book url into Aozora Scraper, the application scrapes the website, analyses the text, provides statistics on the text, and displays the text in a much more readable format.',
-      explanation: 'This project was coded using NextJS, with Puppeteer and Cheerio used for web scraping. Some challenging aspects of creating this website included: correctly scraping the information from poorly structured html, fetching a word frequency JSON files and using the data to calculate difficulty scores, integrating Next Auth, integrating a Mongo DB for adding books, integrating CRUD operations for adding and editing books.',
-      stack: ['NextJS','React','MongoDB','Puppeteer','TailwindCSS','Cheerio', 'Next Auth'],
-      github: "https://github.com/thecodingrunner/hatsugen",
-      demo: "https://github.com",
-      photos: [hatsugen1,hatsugen2,hatsugen3,hatsugen4,hatsugen5],
-      category: ['Fullstack', 'All'],
-    }
+    // {
+    //   id: 5,
+    //   image: hatsugenMarkup,
+    //   title: 'Hatsugen',
+    //   description: 'Next JS application that scrapes an online library resource using puppeteer, analyses the text, and presents both the book statistics and the text in a readable kindle style.',
+    //   purpose: 'The goal of this project was to create a tool for Japanese language learners that bridges the gap between their current skill level, and an extremely valuable yet difficult to use library resource. Aozora Bunko is an online resource of roughly 20,000 Japanese texts/books, but can be complicated to navigate and difficult to read texts on. By simply pasting a book url into Aozora Scraper, the application scrapes the website, analyses the text, provides statistics on the text, and displays the text in a much more readable format.',
+    //   explanation: 'This project was coded using NextJS, with Puppeteer and Cheerio used for web scraping. Some challenging aspects of creating this website included: correctly scraping the information from poorly structured html, fetching a word frequency JSON files and using the data to calculate difficulty scores, integrating Next Auth, integrating a Mongo DB for adding books, integrating CRUD operations for adding and editing books.',
+    //   stack: ['NextJS','React','MongoDB','Puppeteer','TailwindCSS','Cheerio', 'Next Auth'],
+    //   github: "https://github.com/thecodingrunner/hatsugen",
+    //   demo: "https://github.com",
+    //   photos: [hatsugen1,hatsugen2,hatsugen3,hatsugen4,hatsugen5],
+    //   category: ['Fullstack', 'All'],
+    // }
     // {
     //   id: 5,
     //   image: martialChartsMarkup,
