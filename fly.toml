@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for finnmoffett-portfolio on 2024-05-02T15:18:01+01:00
+# fly.toml app configuration file generated for finnmoffett-portfolio on 2024-06-26T23:03:31+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'finnmoffett-portfolio'
-primary_region = 'iad'
+primary_region = 'lhr'
 
 [build]
 

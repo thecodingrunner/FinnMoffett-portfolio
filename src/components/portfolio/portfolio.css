@@ -58,6 +58,8 @@
   gap: 1rem;
   margin-inline: auto;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-inline: 1rem;
 }
 
 .category-button {
@@ -88,6 +90,13 @@
     gap: 20px;
     margin: 0px auto;
   }
+
+  /* .category-filter {
+    display: flex;
+    gap: 1rem;
+    margin-inline: auto;
+    justify-content: center;
+  } */
 }
 
 .portfolio__title {

@@ -33,7 +33,9 @@ const Portfolio = () => {
                       <div className="stack__tools">{stack.map(tool => <div className='stack__tool'>{tool}</div>)}</div>
                       <div className='portfolio__item-cta'>
                         <Link to={`/projects/${id}`} className='btn'>Info Page</Link>
-                        <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                        {demo && (
+                          <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                        )}
                         <a href={github} className='btn' target='_blank'>Github</a>
                       </div>
                     </div>
