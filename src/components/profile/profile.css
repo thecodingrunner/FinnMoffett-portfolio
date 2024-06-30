@@ -74,7 +74,8 @@
   /* Slider box */
 
   .slider-frame {
-    height: 70vh;
+    margin-top: 3vh;
+    height: 65vh;
     width: 100px;
     display: flex;
     overflow: hidden;
@@ -110,7 +111,7 @@
       transform: translateY(-170%);
     }
     to {
-      transform: translateY(calc(-13% + 25px));
+      transform: translateY(calc(-13% + 83px));
     }
   }
   

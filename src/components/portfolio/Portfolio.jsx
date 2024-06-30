@@ -29,7 +29,9 @@ const Portfolio = () => {
                     </div>
                     <div className='portfolio__item-text'>
                       <h3>{title}</h3>
-                      <p>{description}</p>
+                      {description.split('\n').map(line => (
+                        <p>{line}</p>
+                      ))}
                       <div className="stack__tools">{stack.map(tool => <div className='stack__tool'>{tool}</div>)}</div>
                       <div className='portfolio__item-cta'>
                         <Link to={`/projects/${id}`} className='btn'>Info Page</Link>
