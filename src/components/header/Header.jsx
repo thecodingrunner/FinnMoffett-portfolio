@@ -13,7 +13,7 @@ const Header = () => {
         <h1>Finn Moffett</h1>
         <TypeAnimation 
           sequence={[
-            'Frontend Developer',
+            'Web Developer',
             1000,
             'Mechanical Engineering Graduate',
             1000,

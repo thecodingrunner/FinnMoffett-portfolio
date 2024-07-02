@@ -25,7 +25,7 @@ const Profile = () => {
                     </div>
                 </div>
                 <div className="about__content">
-                    <p>After graduating with a Masters degree in Mechanical Engineering, and living in Japan for 6 months, I discovered Web Development, and since then have committed myself to becoming a professional developer. I enjoy developing innovative and stylish web solutions and applications.</p>
+                    <p>Following the completion of my Master's degree in Mechanical Engineering and a period of international experience in Japan, I transitioned into Web Development. I have since focused on developing my skills as a professional in this field. My work centers on creating efficient and visually appealing web solutions and applications, with an emphasis on functionality and user experience.</p>
                     {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
                 </div>
 
