@@ -75,7 +75,7 @@
 
   .slider-frame {
     margin-top: 3vh;
-    height: 65vh;
+    height: 520px;
     width: 100px;
     display: flex;
     overflow: hidden;
@@ -111,7 +111,7 @@
       transform: translateY(-170%);
     }
     to {
-      transform: translateY(calc(-13% + 83px));
+      transform: translateY(calc(-13% + 48px));
     }
   }
   
