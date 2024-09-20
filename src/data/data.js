@@ -10,6 +10,7 @@ import boukenMockup from '../assets/bouken-mockup-2.png'
 import dickiemellieMockup from '../assets/dickiemellie-mockup-2.png'
 import citifiMockup from '../assets/citifi-mockup-2.png'
 import aozoraScraperMockup from '../assets/aozorascraper-mockup.png'
+import kanjifyMockup from '../assets/kanjify-mockup.png'
 
 // photos
 import aozorascraper1 from '../assets/aozorascraper-1.png'
@@ -31,6 +32,13 @@ import dickiemellie4 from '../assets/dickiemellie-4.png'
 import dickiemellie5 from '../assets/dickiemellie-5.png'
 import dickiemellie6 from '../assets/dickiemellie-6.png'
 
+import kanjify1 from '../assets/kanjify-1.png'
+import kanjify2 from '../assets/kanjify-2.png'
+import kanjify3 from '../assets/kanjify-3.png'
+import kanjify4 from '../assets/kanjify-4.png'
+import kanjify5 from '../assets/kanjify-5.png'
+import kanjify6 from '../assets/kanjify-6.png'
+
 // import martialcharts1 from '../assets/martial-charts-1.png'
 // import martialcharts2 from '../assets/martial-charts-2.png'
 // import martialcharts3 from '../assets/martial-charts-3.png'
@@ -50,6 +58,19 @@ import hatsugen5 from '../assets/hatsugen-6.png'
 const data = [
     {
       id: 1,
+      image: kanjifyMockup,
+      title: 'Kanjify',
+      description: 'A Next JS application for creating, sharing, and revising AI generated Kanji flashcards. Suitable for anyone learning Japanese! \nDemo Username: demousername \nDemo Password: demopassword',
+      purpose: 'The goal of this project was to create a tool for Japanese language learners to assist them in learning the most common 2000 Kanji characters. Users are able to create kanji flashcards, with AI assisted prompt, image, and audio generation. Users are also able to browse other users kanji flashcards, add them to their own collection, and rate each flashcard. Users may then revise their created card, using the websites built in spaced-repition-system.',
+      explanation: 'This project was coded using NextJS, with the OpenAI API for the generation of card prompts, card audio (Text-to-speech), and image generation. Some challenging aspects of creating this website included: implementing the OpenAI API for multiple functions, the implementation of a spaced-repition-system (SRS) for the revision of kanji flashcards, the implementation of Kanji data for card collections, the implementation of a flashcard rating system and filtering of public flashcards based on rating and popularity.',
+      stack: ['OpenAI API','NextJS','React','MongoDB','TailwindCSS','Next Auth'],
+      github: "https://github.com/thecodingrunner/Kanji-Learning-Website",
+      demo: "https://kanjify.net/",
+      photos: [kanjify1,kanjify2,kanjify3,kanjify6,kanjify5,kanjify4],
+      category: ['Fullstack', 'All'],
+    },
+    {
+      id: 2,
       image: aozoraScraperMockup,
       title: 'Aozora Scraper',
       description: 'Next JS application that scrapes an online library resource using puppeteer, analyses the text, and presents both the book statistics and the text in a readable kindle style. \nDemo Username: demousername \nDemo Password: password123',
@@ -57,12 +78,12 @@ const data = [
       explanation: 'This project was coded using NextJS, with Puppeteer and Cheerio used for web scraping. Some challenging aspects of creating this website included: correctly scraping the information from poorly structured html, fetching a word frequency JSON files and using the data to calculate difficulty scores, integrating Next Auth, integrating a Mongo DB for adding books, integrating CRUD operations for adding and editing books.',
       stack: ['NextJS','React','MongoDB','Puppeteer','TailwindCSS','Cheerio', 'Next Auth'],
       github: "https://github.com/thecodingrunner/aozora-scraper",
-      demo: "https://aozora-scraper.fly.dev/",
+      demo: "https://aozorascraper.com/",
       photos: [aozorascraper1,aozorascraper2,aozorascraper3,aozorascraper4,aozorascraper5],
       category: ['Fullstack', 'All'],
     },
     {
-      id: 2,
+      id: 3,
       image: dickiemellieMockup,
       title: 'Dickie Mellie',
       description: 'A Next.js-powered website showcasing a local artist\'s work, featuring an integrated e-commerce shop.',
@@ -75,7 +96,7 @@ const data = [
       category: ['Frontend', 'Fullstack', 'All'],
     },
     {
-      id: 3,
+      id: 4,
       image: citifiMockup,
       title: 'Citifi',
       description: 'A City Branding Agency Website created with React.',
@@ -88,7 +109,7 @@ const data = [
       category: ['Frontend', 'All'],
     },
     {
-      id: 4,
+      id: 5,
       image: boukenMockup,
       title: 'Bouken Blog',
       description: 'Experience Japan Through My Eyes: A Full-Stack Next.js Adventure Blog.',
@@ -101,7 +122,7 @@ const data = [
       category: ['Fullstack', 'All'],
     },
     {
-      id: 5,
+      id: 6,
       image: hatsugenMarkup,
       title: 'Hatsugen',
       description: 'Text-to-Audiobook Converter: A Next.js app leveraging OpenAI\'s API to transform written content into high-quality audiobooks. \nDemo Username: finnmoffett \nDemo Password: 123',
